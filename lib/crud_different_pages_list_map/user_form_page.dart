@@ -86,7 +86,6 @@ class _UserFormPageState extends State<UserFormPage> {
           "hobbies":
               hobbies.entries.where((e) => e.value).map((e) => e.key).toList(),
         };
-
         Navigator.pushReplacement(
           context,
           MaterialPageRoute(
